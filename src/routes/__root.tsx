@@ -75,17 +75,22 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "AURVEIL — Quiet luxury, loudly worn." },
+      { title: "AURVEIL" },
       {
         name: "description",
         content:
           "AURVEIL is a luxury fashion & lifestyle house. Quiet luxury for people who scroll fast and dress slow. New drop every Friday.",
       },
       { name: "author", content: "AURVEIL" },
-      { property: "og:title", content: "AURVEIL — Quiet luxury, loudly worn." },
-      { property: "og:description", content: "Concept-store essentials, made in small batches." },
+      { property: "og:title", content: "AURVEIL" },
+      { property: "og:description", content: "AURVEIL: The Midnight Edit is a luxury e-commerce website for premium fashion and lifestyle." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
+      { name: "twitter:title", content: "AURVEIL" },
+      { name: "description", content: "AURVEIL: The Midnight Edit is a luxury e-commerce website for premium fashion and lifestyle." },
+      { name: "twitter:description", content: "AURVEIL: The Midnight Edit is a luxury e-commerce website for premium fashion and lifestyle." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/bf999bc0-bdf3-410b-b0bb-de6a3e2097ff/id-preview-8af9aaa3--414cb314-640e-44b0-8e61-aeb422cc26a8.lovable.app-1780730377176.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/bf999bc0-bdf3-410b-b0bb-de6a3e2097ff/id-preview-8af9aaa3--414cb314-640e-44b0-8e61-aeb422cc26a8.lovable.app-1780730377176.png" },
     ],
     links: [
       { rel: "stylesheet", href: appCss },
